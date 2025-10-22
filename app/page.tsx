@@ -18,24 +18,28 @@ export default function Home() {
 
   // Cargar favoritos del localStorage
   useEffect(() => {
-    const saved = localStorage.getItem("favorites")
-    if (saved) {
-      setFavorites(JSON.parse(saved))
-    }
-    // Obtener ubicación del usuario
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        setUserLocation({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem("favorites")
+      if (saved) {
+        setFavorites(JSON.parse(saved))
+      }
+      // Obtener ubicación del usuario
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          setUserLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          })
         })
-      })
+      }
     }
   }, [])
 
   // Guardar favoritos en localStorage
   useEffect(() => {
-    localStorage.setItem("favorites", JSON.stringify(favorites))
+    if (typeof window !== 'undefined') {
+      localStorage.setItem("favorites", JSON.stringify(favorites))
+    }
   }, [favorites])
 
   const handleSearch = async (query) => {
