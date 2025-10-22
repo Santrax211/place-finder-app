@@ -2,7 +2,7 @@
 
 Una aplicación web moderna para buscar lugares, visualizarlos en un mapa interactivo y guardar tus favoritos.
 
-## 🌟 Características
+## Características
 
 - **Búsqueda de Lugares**: Busca cualquier lugar en el mundo usando OpenStreetMap Nominatim
 - **Mapa Interactivo**: Visualiza los lugares en un mapa interactivo con Leaflet
@@ -12,7 +12,7 @@ Una aplicación web moderna para buscar lugares, visualizarlos en un mapa intera
 - **Diseño Responsive**: Funciona perfectamente en dispositivos móviles y desktop
 - **Información Detallada**: Accede a información completa de cada lugar
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Next.js 15**: Framework React moderno
 - **TypeScript**: Tipado estático para mayor seguridad
@@ -21,7 +21,7 @@ Una aplicación web moderna para buscar lugares, visualizarlos en un mapa intera
 - **OpenStreetMap Nominatim**: API de búsqueda de lugares
 - **Lucide React**: Iconos modernos y consistentes
 
-## 📱 Estructura del Proyecto
+## Estructura del Proyecto
 
 \`\`\`
 src/
@@ -39,7 +39,7 @@ src/
 └── ui/                       # Componentes UI reutilizables
 \`\`\`
 
-## 🚀 Cómo Usar
+## Cómo Usar
 
 ### Instalación
 
@@ -64,7 +64,7 @@ src/
 4. **Ver Favoritos**: Haz clic en el icono de corazón en el encabezado para ver tus lugares guardados
 5. **Cambiar Tema**: Usa el icono de sol/luna para cambiar entre modo claro y oscuro
 
-## 🎨 Tema y Colores
+## Tema y Colores
 
 La aplicación utiliza un sistema de diseño moderno con:
 - **Color Primario**: Azul profundo (para acciones principales)
@@ -72,40 +72,27 @@ La aplicación utiliza un sistema de diseño moderno con:
 - **Color de Acento**: Cian/Turquesa (para elementos destacados)
 - **Modo Oscuro**: Tema oscuro optimizado para la vista
 
-## 💾 Almacenamiento
+## Almacenamiento
 
 - Los favoritos se guardan en `localStorage` del navegador
 - Las preferencias de tema también se guardan localmente
 - No se requiere servidor backend para funcionalidades básicas
 
-## 🗺️ APIs Utilizadas
+## APIs Utilizadas
 
 - **OpenStreetMap Nominatim**: Para búsqueda de lugares
 - **Geolocation API**: Para obtener la ubicación del usuario
 - **Leaflet Maps**: Para visualización de mapas
 
-## 📝 Notas
+## Notas
 
-- La aplicación requiere permiso para acceder a la ubicación del usuario
 - Los datos de lugares provienen de OpenStreetMap, una base de datos colaborativa
 - El almacenamiento de favoritos es local al navegador
 
-## 🔄 Próximas Mejoras
+## Próximas Mejoras
 
 - Integración con base de datos para sincronizar favoritos entre dispositivos
 - Rutas y direcciones entre lugares
 - Filtrado avanzado de lugares por categoría
 - Compartir ubicaciones con otros usuarios
 - Historial de búsquedas recientes
-
-## 📄 Licencia
-
-Este proyecto está disponible bajo la licencia MIT.
-
-## 👨‍💻 Autor
-
-Creado con ❤️ para facilitar la búsqueda de lugares
-
----
-
-**¿Preguntas o sugerencias?** Abre un issue en el repositorio.
