@@ -23,7 +23,7 @@ Una aplicación web moderna para buscar lugares, visualizarlos en un mapa intera
 
 ## Estructura del Proyecto
 
-\`\`\`
+```
 src/
 ├── app/
 │   ├── page.tsx              # Página principal
@@ -37,7 +37,7 @@ src/
 │   ├── favorites-list.tsx    # Lista de favoritos
 │   └── theme-provider.tsx    # Proveedor de tema
 └── ui/                       # Componentes UI reutilizables
-\`\`\`
+```
 
 ## Cómo Usar
 
@@ -45,14 +45,14 @@ src/
 
 1. Clona el repositorio
 2. Instala las dependencias:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Ejecuta el servidor de desarrollo:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador
 
